@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>Marvel Trivia!</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+
+    <div id="splashscreen">
+        <div class="splashBox">
+            <h1>Marvel Trivia!!!</h1>
+            <hr />
+            <br />
+            <p>Click to begin.</p>
+            <br>
+            <button type="button" id="start-btn">Avengers Unite</button>
+        </div>
+    </div>
+
+    <div id="resultBox">
+        <div class="splashBox2">
+            <h2>Results:</h2>
+            <hr />
+            <p id="correctScreen">Correct: </p>
+            <p id="wrongScreen">Wrong: </p>
+        </div>
+    </div>
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p id="correctTimesUp">Correct: </p>
+            <p id="wrongTimesUp">Wrong: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Marvel Trivia!!!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" id="stop-btn">Submit</button>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

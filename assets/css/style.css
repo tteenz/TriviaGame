@@ -1,0 +1,107 @@
+body {
+    background-image: url('../images/marvel4.jpg');
+    background-repeat: repeat;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#splashscreen {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    opacity: .9;
+}
+
+.splashBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+    margin-top: 20%;
+}
+
+#resultBox {
+    display: none;
+    background-color: white;
+    width: 40%; 
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+    opacity: .9;
+}
+
+.splashBox2 {
+    text-align: center;
+    padding: 5%;
+}
+
+#timesUp {
+    display: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 15% auto;
+    padding: 5%;
+    font-size: 25px;
+    opacity: .9;
+}
+
+.wrongBox {
+    text-align: center;
+}
+
+.up {
+    color: darkorange;
+}
+
+.container {
+    display: none;
+    max-width: 60%;
+    margin: 10% auto;
+    background: white;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 5%;
+    border: 3px dashed darkorange;
+    opacity: .9;
+    text-align: center;
+}
+
+.timeRemain {
+    padding: 12px;
+    color: darkorange;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label{
+    display: block;
+}
+
+.myQuestions {
+    font-size: 25px;
+}
+
+.ques,
+labels {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: black;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
