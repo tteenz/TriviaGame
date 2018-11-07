@@ -7,7 +7,7 @@ body {
 
 #splashscreen {
     background-color: white;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     opacity: .9;
 }
@@ -86,11 +86,6 @@ body {
 
 .myQuestions {
     font-size: 25px;
-}
-
-.ques,
-labels {
-    padding: 1%;
 }
 
 header {

@@ -110,17 +110,12 @@ var startGame = $("#start-btn").on('click', function () {
 });
 
 var buildQuiz = function () {
-        //  $(".questions :not('#stop-btn')").empty();
-
     for (var j = 0; j < myQuestions.length; j++) {
         $('.questions').prepend('<div class="' + myQuestions[j] + '"></div>');
         $('.questions').append('<h2>' + myQuestions[j].ques + '</h2>');
         for (var i = 0; i < myQuestions[j].answers.length; i++) {
             $('.questions').append('<input type="radio"  name="' + myQuestions[j].ques + '" value="' + myQuestions[j].answers[i] + '"/><label for="' + num[i] + '">' + myQuestions[j].answers[i] + '</label>');
-
-
-        }   
-
+        }
     }
 }
 
@@ -176,7 +171,6 @@ var gradeQuiz = $('#stop-btn').on('click', function () {
             wrongAnswers++;
         };
     };
-
 
     countdown();
     $('.container').fadeOut(500);
